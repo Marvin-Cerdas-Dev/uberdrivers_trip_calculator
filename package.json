@@ -1,0 +1,39 @@
+{
+  "name": "crubercalc_update",
+  "version": "1.0.0",
+  "description": "\u0016Una herramienta para los condunctores de la plataforma didi. la calculadora de viajes le permite revisar de manera simple o detallada\u001b[D\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Uber\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[B\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D.",
+  "main": "\u001bindex.php",
+  "scripts": {
+    "test": "php"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Marc782@bitbucket.org/Marc782/crubercalc_update.git"
+  },
+  "keywords": [
+    "Uber;",
+    "Viajes",
+    "de",
+    "Uber;",
+    "crubercalc;",
+    "ubercalc"
+  ],
+  "author": "Marvin R. Cerdas Angulo",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Marc782/crubercalc_update#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "bootstrap": "^5.0.0",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "sass": "^1.32.12"
+  },
+  "devDependencies": {
+    "@aquafadas/gulp-php-minify": "^0.3.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-copy": "^4.0.1",
+    "gulp-imagemin": "^7.1.0"
+  }
+}
