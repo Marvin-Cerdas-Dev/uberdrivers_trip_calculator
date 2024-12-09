@@ -72,3 +72,6 @@ Permission is granted to use, copy, modify, and/or distribute this software, sub
 3. The software is provided "as is", without warranty of any kind.
 
 4. The original developer retains all intellectual property rights.
+
+## 🤝 Contact
+Marvin Cerdas - [GitHub Profile](https://github.com/Marvin-Cerdas-Dev)
