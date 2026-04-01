@@ -47,17 +47,17 @@ A web-based calculator for Uber drivers in Costa Rica to accurately calculate an
 
 2. Run Gulp tasks:
    ```bash
-   gulp
+   gulp build
    ```
 
 3. Setup local web server to serve PHP files
 
 ## ✨ Key Features
-- Country-specific Uber earnings calculator
-- Responsive design using Bootstrap
-- Real-time calculation updates
-- User-friendly interface
-- Transparent earnings breakdown
+- Country-specific Uber earnings calculator with support for 5 service types: X, Planet, Flash, Comfort, and XL
+- Stateless, POST-based server-side calculation pipeline via PHP — no database or API layer required
+- Responsive design using Bootstrap 5 with custom CSS overrides
+- Centralized fare configuration (`config/fares.php`) as a single source of truth for all rate updates
+- Transparent earnings breakdown: base fare, per-kilometer and per-minute rates, tolls, extras, and Uber commission (25%)
 
 ## 🌐 Live Demo
 [UberDrivers Trip Calculator](https://crubercalc.azurewebsites.net/country/cr/index.php)
