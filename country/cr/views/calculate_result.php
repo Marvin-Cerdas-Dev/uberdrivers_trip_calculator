@@ -71,7 +71,7 @@
         <title>UberCalc - Calculo de viaje de Uber</title>
 
         <!-- Send the difference value to change color -->
-        <script type="text/javascript">difference = <?php echo number_format($difference, 2) ?></script>
+        <script type="text/javascript">difference = <?php echo number_format($difference ?? 0, 2) ?></script>
     </head>
     <?php include_once("./includes/analyticstracking.php") ?>
     <!-- Cookies modal -->

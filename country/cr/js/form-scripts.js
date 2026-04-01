@@ -201,7 +201,7 @@ $(document).ready(function () {
             $('#val_kilometers').attr("hidden", false);
             validate = false;
         }
-        if ($('#hours').val() === "" && $('#minutes').val() === "" && $('#seconds').val()) {
+        if ($('#hours').val() === "" && $('#minutes').val() === "" && $('#seconds').val() === "") {
             $('#val_time').text("Debe ingresar un valor para el tiempo de duración del viaje");
             $('#val_time').attr("hidden", false);
             validate = false;
@@ -303,7 +303,7 @@ $(document).ready(function () {
 // Rampa Atenas
         if ($('#RampaAtenas').is(":checked")) {
             $('#RampaAtenasLabel').addClass("btn-secondary");
-        } else if ($('#Atenas').is(":not(:checked)")) {
+        } else if ($('#RampaAtenas').is(":not(:checked)")) {
             $('#RampaAtenasLabel').removeClass("btn-secondary");
         }
 // Rampa Pozón

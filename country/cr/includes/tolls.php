@@ -1,5 +1,5 @@
 <?php
-    $tollAtenas = 840;*
+    $tollAtenas = 840;
     $tollBraulioCarrillo = 250;
     $tollBernardoSoto = 550;
     $tollCuidadColon = 210;
