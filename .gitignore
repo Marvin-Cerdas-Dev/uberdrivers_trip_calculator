@@ -1,8 +1,11 @@
+.gitignore
 ads.txt
 gulpfile.js
 hostingstart.html
 robots.txt
 sitemap.xml
+CLAUDE.md
+Errores_Arquitectura.md
 country/cr/includes/ads.php
 country/cr/covid19.php
 country/cr/includes/analyticstracking.php

@@ -54,7 +54,7 @@
         </script>
 
         <!-- build:css dist/country/cr/css -->
-        <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="vendor/bootstrap.min.css">
         <link href="css/default.css" rel="stylesheet">        
         <!-- endbuild -->
 
@@ -347,9 +347,9 @@
     <footer><?php include_once("includes/footer.php") ?></footer>
     <!-- JavaScript -->
     <!-- build:js dist/country/cr/js -->
-    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="../../node_modules/popper.js/dist/popper.min.js"></script>
-    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery.min.js"></script>
+    <script src="vendor/popper.min.js"></script>
+    <script src="vendor/bootstrap.min.js"></script>
     <script src="js/index-scripts.js"></script>
     <script src="js/jquery.cookie.js"></script>
     <script src="js/form-scripts.js"></script>
